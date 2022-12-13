@@ -16,20 +16,6 @@ def Algo():
     return total
 
 
-def altGaucheMax(i):
-    max = 0
-    for j in range(1, i - 1):
-        if A[j] > max:
-            max = j
-    return max
-
-
-def altDroiteMax(i):
-    max = 0
-    for k in range(i + 1, len(A) - 2):
-        if A[k] > max:
-            max = k
-    return max
-
+## NON FONCTIONNEL
 
 print(Algo())
