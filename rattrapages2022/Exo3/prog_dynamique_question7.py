@@ -13,8 +13,6 @@ def ButinMax(n, T):
             Opt[i] = Opt[i - 1]
             Maisons[i] = False
     return Opt[n], MaisonsCambriolees(Maisons)
-
-
 def MaisonsCambriolees(Maisons):
     i = len(Maisons) - 1
     maisonsCambriolees = []
